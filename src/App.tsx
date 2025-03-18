@@ -20,7 +20,7 @@ function App() {
     <div className="container">
       <textarea
         id="markdown-input"
-        placeholder="Escreva seu Markdown aqui..."
+        placeholder="Write your Markdown here..."
         value={markdown}
         onChange={(e) => setMarkdown(e.target.value)}
       />
@@ -29,7 +29,7 @@ function App() {
         className="preview"
         dangerouslySetInnerHTML={{ __html: marked(markdown) }}
       />
-      <button onClick={handleExport}>Exportar como HTML</button>
+      <button onClick={handleExport}>Export as HTML</button>
     </div>
   );
 }
