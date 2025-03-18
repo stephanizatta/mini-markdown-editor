@@ -63,3 +63,4 @@ A simple markdown editor, with pre visualization in real time, build with TypeSc
     git commit -m "Initial commit"
     git remote add origin https://github.com/user/mini-markdown-editor.git
     git push -u origin main
+
